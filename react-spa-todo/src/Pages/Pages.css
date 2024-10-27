@@ -1,0 +1,43 @@
+  
+  /* Відступи в хедері */
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Світла тема */
+  body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Темна тема */
+  body.dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Стилі для TODO */
+  input, button {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Стилі для перемикача тем */
+  .theme-switcher {
+    margin-bottom: 20px;
+  }
+  
